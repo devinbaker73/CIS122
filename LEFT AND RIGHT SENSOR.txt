@@ -39,8 +39,11 @@ void loop(){
   else if(digitalRead(left)==0 && !analogRead(right)==0){
     //turn left
     
-    // *link and references used to help create code for this project *https://learn.adafruit.com/afmotor-library-reference*
+    // *link and references used to help create code for this project 
+    // https://learn.adafruit.com/afmotor-library-reference
+    // https://www.youtube.com/watch?v=jsGG6-vXaXo&fbclid=IwAR1yDK0IYB1FZco6ZgYsBggAxjKcGqW5N0yaKpodZDM6nCFA7JtIKAN6QV0
     // followed the same principle as listed in the link above
+    
     Motor_B.run(FORWARD);
     // calls to activate motor number B to run backwards.
     Motor_B.setSpeed(200);
