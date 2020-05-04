@@ -1,3 +1,7 @@
+//Soojung Lee
+//JAVA
+//https://www.youtube.com/watch?v=ZBRbIeaTn2w
+
 //setup(just in case)
 void setup(){
   pinMode(Left_p,OUTPUT);
